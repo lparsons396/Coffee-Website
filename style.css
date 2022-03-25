@@ -72,8 +72,20 @@
   padding-top: 0;
   padding-bottom: 0; 
   justify-self: center;
-  align-self: center;
-  
+  align-self: center; 
+}
+
+.logo-footer {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;  
+  max-height: 400px;
+  max-width: 80%; 
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0; 
+  justify-self: center;
+  align-self: center; 
 }
 
 .img {
@@ -139,7 +151,7 @@
 
 
 /* Navbar */
-.navbar, .navbar nav {
+.navbar, .navbar nav,.footer {
     background-color: black;
     color: #fff;
     /*height: 70px;*/
@@ -157,7 +169,7 @@
 
 
 
-  .navbar ul, .navbar text {
+  .navbar ul, .navbar text, nav {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -234,8 +246,41 @@
 .text {
   font-size: var(--fs-600);
   align-self: center;
+  text-decoration: none;
 }
 
 .text-title{
   font-size: var(--fs-xl);
 }
+
+/* Footer */
+
+.footer.grid.grid3IMage {
+  height:1%;
+  width: auto;
+  position: relative;
+  margin: 100
+}
+
+
+.footer .social a {
+  margin: 0 10px;
+}
+
+.fa-github:hover {
+  color: #000000;
+}
+
+.fa-facebook:hover {
+  color: #1773EA;
+}
+
+.fa-instagram:hover {
+  color: #B32E87;
+}
+
+.fa-twitter:hover {
+  color: #1C9CEA;
+}
+
+
